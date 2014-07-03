@@ -1,0 +1,22 @@
+#--------------------------
+# [FearFactions] config.yml
+# -------------------------
+# Config for the FearFactions plugin.
+# Help messages can use <name>(sender name) <prefix>(plugin prefix, as defined below) and chatcolors
+
+prefix: '&k|&7[&4FearFactions&7]&k|&r '
+numwarps: 1
+features:
+  scoreboard: true
+  deaths: true
+  bosshomes: true
+  privatebeacons: true
+  warps: true
+  who: true
+help:
+  scoreboard: 'The scoreboard on the side displays information about your current faction!'
+  deaths: 'fearfactions changes death messages so only the killers and the killed faction its players see it.'
+  bosshomes: 'Players with the correct permission can set an additional home.\nThis home can only be used y those with the permission obviously'
+  privatebeacons: 'Place a beacon in a faction area and the beacon will ONLY apply the effect to the plaeyrs from that faction in range.'
+  warps: 'Add warps! With this you can quickly teleport between your favorite locations'
+  who: 'Pure nostalgia++! No more /factions f or /factions p, its all in one!'

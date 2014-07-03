@@ -1,0 +1,26 @@
+name: FearFactions
+main: net.brord.plugins.fearfactions.FearFactions
+version: 0.2
+description: FearFactions is a plugin which adds Factions enhancements just for FearPVP!
+authors: [kwek20]
+depend: [mcore, Factions]
+commands:
+  fearfactions:
+    description: FearFactions main and only command <3
+    usage: just type the name you stupid ._.
+    
+permissions:
+  fearfactions.*:
+    description: Gives access to all fearfactions permissions
+    children:
+     fearfactions.boss: true
+     fearfactions.warps: true
+     fearfactions.warps.unlimited: true
+  fearfactions.who:
+    description: shows info about factions or players
+  fearfactions.boss: 
+    description: do boss home related actions
+  fearfactions.warps: 
+    description: do warps in a faction
+  fearfactions.warps.unlimited:
+    description: have unlimited warps in your faction
